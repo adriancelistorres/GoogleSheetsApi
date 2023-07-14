@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "qBMKMFP2XHWz+nEXc9nmuaSH9/bqBTNbqwGAamMvftrnC6CvBg/WgbYdSODVXXjouwgJvzwOHiG+5PQmRG3P1g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ADRIAN.DESKTOP-IF5PV5P\\Desktop\\hvds\\Google Sheets API\\GoogleSheetsAPI\\GoogleSheetsAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADRIAN.DESKTOP-IF5PV5P\\.nuget\\packages\\google.apis\\1.55.0\\google.apis.1.55.0.nupkg.sha512",
+    "C:\\Users\\ADRIAN.DESKTOP-IF5PV5P\\.nuget\\packages\\google.apis.auth\\1.55.0\\google.apis.auth.1.55.0.nupkg.sha512",
+    "C:\\Users\\ADRIAN.DESKTOP-IF5PV5P\\.nuget\\packages\\google.apis.core\\1.55.0\\google.apis.core.1.55.0.nupkg.sha512",
+    "C:\\Users\\ADRIAN.DESKTOP-IF5PV5P\\.nuget\\packages\\google.apis.sheets.v4\\1.55.0.2371\\google.apis.sheets.v4.1.55.0.2371.nupkg.sha512",
+    "C:\\Users\\ADRIAN.DESKTOP-IF5PV5P\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ADRIAN.DESKTOP-IF5PV5P\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ADRIAN.DESKTOP-IF5PV5P\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\ADRIAN.DESKTOP-IF5PV5P\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\ADRIAN.DESKTOP-IF5PV5P\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\ADRIAN.DESKTOP-IF5PV5P\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\ADRIAN.DESKTOP-IF5PV5P\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
