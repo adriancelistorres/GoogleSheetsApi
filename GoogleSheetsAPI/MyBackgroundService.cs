@@ -7,15 +7,19 @@ using System.Net.Http;
 
 namespace GoogleSheetsAPI
 {
-    public class MyBackgroundService:BackgroundService
+    public class MyBackgroundService: BackgroundService
     {
+        //private readonly DataProcessingService _dataProcessingService;
+
+
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly IServiceProvider _services;
 
-        public MyBackgroundService(IHttpClientFactory httpClientFactory, IServiceProvider services)
+        public MyBackgroundService(IHttpClientFactory httpClientFactory, IServiceProvider services) //DataProcessingService dataProcessingService)
         {
             _httpClientFactory = httpClientFactory;
             _services = services;
+            //_dataProcessingService = dataProcessingService;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -39,6 +43,10 @@ namespace GoogleSheetsAPI
                             // La respuesta fue exitosa
                             var json = await response.Content.ReadAsStringAsync();
                             Console.WriteLine(json); // Imprime el JSON en la consola
+                            //var dataProcessingService = scope.ServiceProvider.GetRequiredService<DataProcessingService>();
+                          //  _dataProcessingService.ProcessJsonData(json);
+
+
                         }
                         else
                         {

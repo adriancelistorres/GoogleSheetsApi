@@ -20,7 +20,7 @@ namespace GoogleSheetsAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpClient();
-            services.AddHostedService<MyBackgroundService>();
+           //services.AddHostedService<MyBackgroundService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

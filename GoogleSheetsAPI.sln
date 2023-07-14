@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31710.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleSheetsAPI", "GoogleSheetsAPI\GoogleSheetsAPI.csproj", "{5560E810-5405-4F81-A44C-219ACF3FA008}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSheetsAPITest", "GoogleSheetsAPITest\GoogleSheetsAPITest.csproj", "{75D4E142-F382-448E-8B29-7100AAF0E0A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleSheetsAPITest", "GoogleSheetsAPITest\GoogleSheetsAPITest.csproj", "{75D4E142-F382-448E-8B29-7100AAF0E0A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
