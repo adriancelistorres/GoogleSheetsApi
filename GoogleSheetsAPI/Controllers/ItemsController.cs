@@ -1,6 +1,7 @@
 ﻿using Google.Apis.Sheets.v4;
 using Google.Apis.Sheets.v4.Data;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Linq;
 using static Google.Apis.Sheets.v4.SpreadsheetsResource.ValuesResource;
 
@@ -23,13 +24,21 @@ namespace GoogleSheetsAPI.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var range = $"{SHEET_NAME}!A:F";
+            try
+            {
+                var range = $"{SHEET_NAME}!A:F";
 
             var request = _googleSheetValues.Get(SPREADSHEET_ID, range);
             var response = request.Execute();
             var values = response.Values;
 
             return Ok(ItemsMapper.MapFromRangeData(values));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Ocurrió un error: {ex.Message}");
+
+            }
         }
 
         [HttpGet("{rowId}")]

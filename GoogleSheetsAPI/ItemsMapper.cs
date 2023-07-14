@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace GoogleSheetsAPI
 {
@@ -11,20 +12,28 @@ namespace GoogleSheetsAPI
             {
                 foreach (var value in values)
             {
-                    var item = new Item
+                    try
                     {
-                        JEFEDEVENTA = value.Count > 0 ? value[0].ToString() : null,
-                        SUPERVISOR = value.Count > 1 ? value[1].ToString():null,
-                        PDV = value.Count > 2 ? value[2].ToString() : null,
-                        Fecha = value.Count > 3 ? value[3].ToString() : null,
-                        HoraApertura = value.Count > 4 ? value[4].ToString() : null,
-                        HoraCierre = value.Count > 5 ? value[5].ToString() : null,
-                    };
+                        var item = new Item
+                        {
+                            JEFEDEVENTA = value.Count > 0 ? value[0].ToString() : null,
+                            SUPERVISOR = value.Count > 1 ? value[1].ToString() : null,
+                            PDV = value.Count > 2 ? value[2].ToString() : null,
+                            Fecha = value.Count > 3 ? value[3].ToString() : null,
+                            HoraApertura = value.Count > 4 ? value[4].ToString() : null,
+                            HoraCierre = value.Count > 5 ? value[5].ToString() : null,
+                        };
 
-                    items.Add(item);
-                
-               
-            }
+                        items.Add(item);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Error al mapear los valores: {ex.Message}");
+                        // Otras acciones de manejo del error, si es necesario
+                    }
+
+
+                }
             }
 
             return items;
