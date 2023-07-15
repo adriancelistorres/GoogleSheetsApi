@@ -1,6 +1,7 @@
 ﻿using Google.Apis.Auth.OAuth2;
 using Google.Apis.Services;
 using Google.Apis.Sheets.v4;
+using System;
 using System.IO;
 
 namespace GoogleSheetsAPI
@@ -18,12 +19,21 @@ namespace GoogleSheetsAPI
 
         private void InitializeService()
         {
-            var credential = GetCredentialsFromFile();
+            try
+            {
+                var credential = GetCredentialsFromFile();
             Service = new SheetsService(new BaseClientService.Initializer()
             {
                 HttpClientInitializer = credential,
                 ApplicationName = APPLICATION_NAME
             });
+            }
+            catch (Exception ex)
+            {
+                // Manejo de la excepción
+                Console.WriteLine($"Ocurrió un error al inicializar el servicio de Google Sheets: {ex.Message}");
+                // Otras acciones de manejo del error, si es necesario
+            }
         }
 
         private GoogleCredential GetCredentialsFromFile()
