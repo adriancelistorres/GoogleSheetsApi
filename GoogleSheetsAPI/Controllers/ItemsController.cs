@@ -26,7 +26,7 @@ namespace GoogleSheetsAPI.Controllers
         {
             try
             {
-                var range = $"{SHEET_NAME}!A:F";
+                var range = $"{SHEET_NAME}!A2:F";
 
             var request = _googleSheetValues.Get(SPREADSHEET_ID, range);
             var response = request.Execute();
