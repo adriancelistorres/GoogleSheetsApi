@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdP0dU+rglEOtiZR9Co0vfwAAAAACAAAAAAAQZgAAAAEAACAAAACX4PsgFRqBSc5LyZY+OSjW/j+sUVkHThTGjTX2U876DQAAAAAOgAAAAAIAACAAAABDTzwdvR1WkBPNWzKhmRbM+IKdsPeQ4naLEpEbQRuvliAAAACauGd+7TqvvyCkmLsFsFkkqlh+zoWiGpYHN2UrHAA+tkAAAABFGSQPDcreA/Hn1Y/6dKJ5CzxP3M1cXH/35oy3AeTM2rXJBeM27GVppspiqTRlQt3jT1d20Nbe8+xCvd/QnEHr</EncryptedPassword>
+    <History>True|2023-07-15T21:18:58.2139968Z;False|2023-07-15T16:17:01.5953431-05:00;</History>
+    <LastFailureDetails />
+    <_PublishTargetUrl>ftp://155.254.244.34/www.googlesheetsAPI.somee.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>07/13/2023 10:59:27</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>07/14/2023 09:19:35</publishTime>
+    </File>
+    <File Include="client_secrets.json">
+      <publishTime>07/12/2023 22:57:46</publishTime>
+    </File>
+    <File Include="Google.Apis.Auth.dll">
+      <publishTime>09/08/2021 10:54:12</publishTime>
+    </File>
+    <File Include="Google.Apis.Auth.PlatformServices.dll">
+      <publishTime>09/08/2021 10:54:30</publishTime>
+    </File>
+    <File Include="Google.Apis.Core.dll">
+      <publishTime>09/08/2021 10:54:08</publishTime>
+    </File>
+    <File Include="Google.Apis.dll">
+      <publishTime>09/08/2021 10:54:10</publishTime>
+    </File>
+    <File Include="Google.Apis.Sheets.v4.dll">
+      <publishTime>09/08/2021 11:13:54</publishTime>
+    </File>
+    <File Include="GoogleSheetsAPI.deps.json">
+      <publishTime>07/15/2023 16:17:54</publishTime>
+    </File>
+    <File Include="GoogleSheetsAPI.dll">
+      <publishTime>07/15/2023 16:17:54</publishTime>
+    </File>
+    <File Include="GoogleSheetsAPI.exe">
+      <publishTime>07/15/2023 16:17:54</publishTime>
+    </File>
+    <File Include="GoogleSheetsAPI.pdb">
+      <publishTime>07/15/2023 16:17:54</publishTime>
+    </File>
+    <File Include="GoogleSheetsAPI.runtimeconfig.json">
+      <publishTime>07/15/2023 15:49:14</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/29/2020 15:14:12</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/17/2021 15:03:36</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll">
+      <publishTime>10/17/2022 18:26:02</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/sni.dll">
+      <publishTime>07/12/2017 06:24:24</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/sni.dll">
+      <publishTime>07/12/2017 06:24:22</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/sni.dll">
+      <publishTime>07/12/2017 06:24:22</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll">
+      <publishTime>10/17/2022 18:26:08</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>09/23/2020 07:47:20</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>09/23/2020 07:47:22</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>09/23/2020 07:47:24</publishTime>
+    </File>
+    <File Include="System.Data.SqlClient.dll">
+      <publishTime>10/17/2022 18:16:04</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>07/15/2023 16:17:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
